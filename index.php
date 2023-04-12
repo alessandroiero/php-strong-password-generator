@@ -1,6 +1,6 @@
 <?php
 // includiamo il file esterno delle funzioni
-include __DIR__ . '/functions.php';
+require_once __DIR__ .'/functions.php';
     
 $pswlength= $_GET['pw'];
 $password= create_pw($pswlength);
